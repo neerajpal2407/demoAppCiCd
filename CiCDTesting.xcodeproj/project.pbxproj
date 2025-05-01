@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CFD14F0B2DC3DBB400B07D99 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CFD14F0A2DC3DBB400B07D99 /* .gitignore */; };
+		CFD14F0F2DC3DC7E00B07D99 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CFD14F0E2DC3DC7E00B07D99 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CFD14ED72DC3D9E900B07D99 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		CFD14EC02DC3D9E600B07D99 /* CiCDTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CiCDTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD14ED62DC3D9E900B07D99 /* CiCDTestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiCDTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD14EE02DC3D9E900B07D99 /* CiCDTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiCDTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD14F0A2DC3DBB400B07D99 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CFD14F0E2DC3DC7E00B07D99 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +95,8 @@
 		CFD14EB72DC3D9E600B07D99 = {
 			isa = PBXGroup;
 			children = (
+				CFD14F0A2DC3DBB400B07D99 /* .gitignore */,
+				CFD14F0E2DC3DC7E00B07D99 /* README.md */,
 				CFD14EC22DC3D9E600B07D99 /* CiCDTesting */,
 				CFD14ED92DC3D9E900B07D99 /* CiCDTestingTests */,
 				CFD14EE32DC3D9E900B07D99 /* CiCDTestingUITests */,
@@ -225,6 +234,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD14F0B2DC3DBB400B07D99 /* .gitignore in Resources */,
+				CFD14F0F2DC3DC7E00B07D99 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
